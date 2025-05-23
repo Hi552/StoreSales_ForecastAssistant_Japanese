@@ -17,9 +17,9 @@ from .settings_main import project_name
 
 training_dataset = DatasetArgs(
     resource_name=f"Forecast Assistant Training Data [{project_name}]",
-    file_path="assets/店舗別売上予測_学習_外部データ追加.csv",
+    file_path="assets/storesales_japanese_train.csv",
 )
 scoring_dataset = DatasetArgs(
     resource_name=f"Forecast Assistant Scoring Data [{project_name}]",
-    file_path="assets/店舗別売上予測_予測_外部データ追加.csv",
+    file_path="assets/storesales_japanese_predict.csv",
 )
