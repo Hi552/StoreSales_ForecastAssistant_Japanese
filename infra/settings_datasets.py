@@ -21,5 +21,5 @@ training_dataset = DatasetArgs(
 )
 scoring_dataset = DatasetArgs(
     resource_name=f"Forecast Assistant Scoring Data [{project_name}]",
-    file_path="assets/storesales_japanese_predict.csv",
+    file_path="assets/storesales_japanese_forecast.csv",
 )
